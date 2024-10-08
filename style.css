@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Login and Sign Up Form Styles */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard Styles */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #001f3f;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+.events-progress h3 {
+    margin: 10px 0;
+}
+
+.upcoming-events {
+    display: flex;
+    gap: 20px;
+}
+
+.event-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
